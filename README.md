@@ -37,7 +37,7 @@ This repository contains all assignments for the course "Big Data" (NWI-IBC036) 
 		* **Shuffle**: worker nodes redistribute data based on the output keys (produced by the map function), such that all data belonging to one key is located on the same worker node.
 		* **Reduce**: worker nodes now process each group of output data, per key, in parallel.
 * Implementations of MapReduce
-	* [Apache Hadoop](https://en.wikipedia.org/wiki/Apache_Hadoop): Mostly uses data from a persistent storage such as a database and therefor supports larger amounts of data as Spark
+	* [Apache Hadoop](https://en.wikipedia.org/wiki/Apache_Hadoop): Mostly uses data from a persistent storage such as a database and therefor supports larger amounts of data than Spark
 	* [Apache Spark](https://spark.apache.org/): Mostly uses data from volatile storage such as RAM
 	* [Apache CouchDB](https://en.wikipedia.org/wiki/Apache_CouchDB)
 	* [Disco Project](http://discoproject.org/)
